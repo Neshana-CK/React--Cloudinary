@@ -15,7 +15,8 @@ A simple React application that allows users to upload images to **Cloudinary** 
 
 ## Demo
 
-![Demo GIF or Screenshot](link-to-your-demo-image-or-gif)
+<img width="1211" height="738" alt="Screenshot 2025-12-09 132117" src="https://github.com/user-attachments/assets/5a0da39e-5481-4238-89b2-3f4bfa543c67" />
+
 
 ---
 
@@ -28,7 +29,7 @@ git clone https://github.com/your-username/react-cloudinary-uploader.git
 cd react-cloudinary-uploader
 
 
-<img width="1211" height="738" alt="Screenshot 2025-12-09 132117" src="https://github.com/user-attachments/assets/c40b166d-88c2-4b50-bcf0-c093a69ea3f7" />
+
 
 
 
