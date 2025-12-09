@@ -1,0 +1,66 @@
+/* Full white background */
+.file-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+/* BIG green upload box */
+.upload-container {
+  width: 500px;          /* ← bigger width */
+  height: 350px;         /* ← bigger height */
+  background: #22c55e;   /* green box */
+  border-radius: 24px;
+  border: 3px solid #16a34a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Upload text */
+.upload-icon {
+  font-size: 26px;   /* bigger text */
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Make Choose File button white */
+.file-input-visible {
+  background: white;
+  border: none;
+  padding: 14px 24px;  /* bigger button */
+  border-radius: 10px;
+  color: #111;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Chrome / Safari */
+.file-input-visible::-webkit-file-upload-button {
+  background: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  color: #111;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Firefox */
+.file-input-visible::file-selector-button {
+  background: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  color: #111;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
